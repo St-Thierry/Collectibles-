@@ -150,27 +150,29 @@ nav {
     justify-items: center;
 }
 
+/* Product Section */
 .product {
     position: relative; /* Allows for absolute positioning of the button */
     background-color: #fff;
-    padding: 20px;
+    padding: 2%; /* Adjusted for relative padding */
     border: 1px solid #ddd;
-    width: 300px; /* Adjust width */
-    height: 400px; /* Adjust height */
+    width: 30%; /* Adjust width to 30% for three products per row */
+    height: 45vw; /* Adjust height relative to the viewport width */
     text-align: center;
-    border-radius: 10px; /* Adjust border radius */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 1.5%; /* Adjust border radius relative to size */
+    box-shadow: 0 2% 4% rgba(0, 0, 0, 0.1);
+    margin: 1%; /* Margin to space between product cards */
 }
 
 .product-btn {
     position: absolute;
-    bottom: 15px; /* Adjusts distance from the bottom */
-    right: 15px; /* Adjusts distance from the right */
-    padding: 10px 15px;
+    bottom: 5%;
+    right: 5%;
+    padding: 2% 3%; /* Adjusted for relative padding */
     background-color: transparent;
     color: red;
-    border: 2px solid red;
-    border-radius: 5px;
+    border: 0.2vw solid red; /* Adjusted for relative border width */
+    border-radius: 0.5vw; /* Adjusted for relative border radius */
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -183,32 +185,46 @@ nav {
 /* Adjusting image height so the button doesn't overlap the content */
 .product img {
     width: 100%;
-    height: 200px;
+    height: 50%; /* Adjusted for relative height */
     object-fit: cover;
-    border-radius: 10px 10px 0 0; /* Rounded top corners */
+    border-radius: 1.5% 1.5% 0 0; /* Rounded top corners */
 }
 
 .product h3 {
-    font-size: 1.2rem;
-    margin: 15px 0;
+    font-size: 1.5vw; /* Adjusted for relative font size */
+    margin: 1% 0;
 }
 
 .product p {
-    font-size: 1rem;
+    font-size: 1.2vw; /* Adjusted for relative font size */
     color: #555;
-    margin-bottom: 50px; /* Ensures space above the button */
+    margin-bottom: 10%; /* Ensures space above the button */
 }
 
-/* Responsive Design */
+/* Responsive Styles for Product Grid */
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%; /* Adjusted for spacing between items */
+    justify-content: space-between; /* Ensures spacing between items */
+}
+
 @media (max-width: 768px) {
-    .product-grid {
-        grid-template-columns: repeat(2, 1fr); /* 2 items per row on smaller screens */
+    .product {
+        width: 45%; /* Adjust width for two products per row on smaller screens */
+        height: 60vw; /* Adjust height relative to viewport */
     }
 
-    .product {
-        width: 100%; /* Adjust width for mobile view */
+    .product h3 {
+        font-size: 3vw; /* Larger text on smaller screens */
+    }
+
+    .product p {
+        font-size: 2.5vw; /* Larger description on smaller screens */
     }
 }
+
+
 
 /* Who We Are Section */
 .who-we-are {

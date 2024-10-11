@@ -150,6 +150,7 @@ nav {
 }
 
 .product {
+    position: relative; /* Allows for absolute positioning of the button */
     background-color: #fff;
     padding: 20px;
     border: 1px solid #ddd;
@@ -160,6 +161,25 @@ nav {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.product-btn {
+    position: absolute;
+    bottom: 15px; /* Adjusts distance from the bottom */
+    right: 15px; /* Adjusts distance from the right */
+    padding: 10px 15px;
+    background-color: transparent;
+    color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.product-btn:hover {
+    background-color: red;
+    color: #fff;
+}
+
+/* Adjusting image height so the button doesn't overlap the content */
 .product img {
     width: 100%;
     height: 200px;
@@ -175,22 +195,7 @@ nav {
 .product p {
     font-size: 1rem;
     color: #555;
-    margin-bottom: 15px;
-}
-
-.product-btn {
-    padding: 10px 15px;
-    background-color: transparent;
-    color: red;
-    border: 2px solid red;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.product-btn:hover {
-    background-color: red;
-    color: #fff;
+    margin-bottom: 50px; /* Ensures space above the button */
 }
 
 /* Responsive Design */

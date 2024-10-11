@@ -214,6 +214,7 @@ nav {
 .who-we-are {
     text-align: center;
     padding: 50px 20px;
+    width: 100%;
 }
 
 .about-grid {
@@ -239,6 +240,7 @@ nav {
     text-align: center;
     padding: 50px 20px;
     background-color: #f5f5f5;
+    width: 100%;
 }
 
 .subscription input {
@@ -261,6 +263,7 @@ nav {
 footer {
     background-color: #fff;
     border-top: 1px solid #ddd;
+    width: 100%;
 }
 
 .footer-top {

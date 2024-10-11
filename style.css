@@ -19,6 +19,7 @@ nav {
     padding: 15px 20px;
     background-color: #fff;
     border-bottom: 1px solid #ddd;
+    position: relative; 
 }
 
 .logo img {

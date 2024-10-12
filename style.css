@@ -321,7 +321,7 @@ nav {
     width: 100%;
     max-width: 1080px; /* Limit the width of the subscription section */
     margin: 0 auto 3vh auto; /* Center the section */
-    border-radius: 10px; /* Optional: rounded corners for
+    border-radius: 10px;
 }
 
 .subscription input {

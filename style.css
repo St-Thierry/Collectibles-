@@ -140,7 +140,7 @@ nav {
 /* Products Section */
 .products {
     text-align: center;
-    padding: 50px 20px;
+    padding: 50px 20px 50px 40px;
 }
 
 .product-grid {
@@ -432,7 +432,7 @@ nav {
         gap: 30px;
     }
     body {
-        width: 480px;
+        width: 1000px;
     }
 }
 

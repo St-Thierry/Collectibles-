@@ -150,8 +150,60 @@ nav {
     justify-items: center;
 }
 
+.product {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 300px; /* Adjust width */
+    height: 400px; /* Adjust height */
+    text-align: center;
+    border-radius: 10px; /* Adjust border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+.product img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0; /* Rounded top corners */
+}
 
+.product h3 {
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+.product p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.product-btn {
+    padding: 10px 15px;
+    background-color: transparent;
+    color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.product-btn:hover {
+    background-color: red;
+    color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 items per row on smaller screens */
+    }
+
+    .product {
+        width: 100%; /* Adjust width for mobile view */
+    }
+}
 
 
 /* New Collection Section */

@@ -369,7 +369,9 @@ nav {
             background-color: #f0f0f0;
             padding: 40px 0;
             color: #333;
-            width: 100%;
+            display: flex;
+            justify-content: space-between; 
+            align-items: center; 
 }
 .footer-content {
             max-width: 1200px;

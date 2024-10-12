@@ -318,7 +318,7 @@ nav {
     text-align: center;
     padding: 50px 20px;
     background-color: #f5f5f5;
-    width: 100vw;
+    width: 100%;
 }
 
 .subscription input {
@@ -343,7 +343,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100vw;
+    width: 100%;
 }
 .info-item {
     display: flex;
@@ -369,7 +369,7 @@ nav {
             background-color: #f0f0f0;
             padding: 40px 0;
             color: #333;
-            width: 100vw;
+            width: 100%;
 }
 .footer-content {
             max-width: 1200px;
@@ -454,4 +454,11 @@ nav {
     .about-grid {
         flex-direction: column;
     }
+}
+
+.subscription,
+.info-bar,
+.footer {
+    max-width: 1200px;
+    margin: 0 auto;
 }

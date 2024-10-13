@@ -31,19 +31,19 @@ nav {
 
 .logo img {
     height: 50px;
-    max-width: 100px; /* Adjust width as needed */
+    max-width: 50px; /* Adjust width as needed */
 }
 
 .search-bar {
     flex-grow: 1;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 .search-bar input {
-    width: 30vw;
+    width: 30px;
     padding: 8px;
     border: 1px solid #ddd;
-    border-radius: 25px;
+    border-radius: 15px;
     background-color: #f2f2f2;
 }
 

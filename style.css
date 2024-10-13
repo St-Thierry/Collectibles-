@@ -375,6 +375,16 @@ nav {
     cursor: pointer;
 }
 
+.subscription h3 {
+    color: yellow;
+}
+
+
+.subscription p h2 {
+    color: white;
+}
+
+
 /* Info Section */
 .info-bar {
     background-color: #FF9800;

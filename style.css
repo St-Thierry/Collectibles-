@@ -20,6 +20,7 @@ nav {
     background-color: #fff;
     border-bottom: 1px solid #ddd;
     position: relative; 
+    width: 100%;
 }
 
 .menu-icon {

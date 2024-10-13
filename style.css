@@ -344,7 +344,6 @@ nav {
     padding: 50px 20px;
     background-color: #f5f5f5;
     width: 100vw;
-    max-width: 1080px; /* Limit the width of the subscription section */
     margin: 0 auto 3vh auto; /* Center the section */
     border-radius: 10px;
 }

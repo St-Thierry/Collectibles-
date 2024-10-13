@@ -19,8 +19,7 @@ nav {
     padding: 15px 2px;
     background-color: #fff;
     border-bottom: 1px solid #ddd;
-    position: relative; 
-    width: 100%;
+    position: relative;
 }
 
 .menu-icon {
@@ -28,19 +27,19 @@ nav {
     cursor: pointer;
     display: flex;
     align-items: center;
-    margin-right: 7%;
+    margin-right: 10px;
 }
 
 .logo img {
     height: 50px;
     max-width: 100px; /* Adjust width as needed */
-    margin-right: 25%;
+    margin-right: 25px;
 }
 
 .search-bar {
     flex-grow: 1;
     margin: 0 20px;
-    margin-right: 50%;
+    margin-right: 50px;
 }
 
 .search-bar input {

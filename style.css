@@ -381,12 +381,15 @@ nav {
     fontweight: bold;
 }
 
-
-.subscription p h2 {
+.subscription h2 {
     color: #fff;
     fontweight: bold;
 }
 
+.subscription p {
+    color: #fff;
+    fontweight: bold;
+}
 
 /* Info Section */
 .info-bar {

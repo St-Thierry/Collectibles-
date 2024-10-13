@@ -352,6 +352,12 @@ nav {
     width: 100vw;
     margin: 0 auto 2vh auto; /* Center the section */
     border-radius: 10px;
+    background-image: url('assets/sub.png');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.4); /* Adjust transparency */
+    background-blend-mode: darken; /* Ensures text remains visible */
 }
 
 .subscription input {

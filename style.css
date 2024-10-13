@@ -34,7 +34,7 @@ nav {
     height: 50px;
     max-width: 100px; /* Adjust width as needed */
     position: relative;
-    right: 25vw
+    right: 25vw;
 }
 
 .search-bar {

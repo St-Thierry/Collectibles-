@@ -152,13 +152,13 @@ nav {
 /* Products Section */
 .products {
     text-align: center;
-    padding: 50px 20px; 
+    padding: 50px 5%; /* Adjusted for better margins */
 }
 
 .product-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 items per row */
-    gap: 2%;
+    gap: 20px; /* Adjusted gap for better spacing */
     justify-items: center;
 }
 
@@ -166,18 +166,19 @@ nav {
     background-color: #fff;
     padding: 20px;
     border: 1px solid #ddd;
-    width: 300px; /* Adjust width */
-    height: 400px; /* Adjust height */
+    width: 100%; /* Adjust width to 100% of its container */
+    height: 400px; /* Fixed height for uniformity */
     text-align: center;
-    border-radius: 10px; /* Adjust border radius */
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; /* Added to position the button absolutely within the box */
 }
 
 .product img {
-    width: 100px;
-    height: 20px;
-    object-fit: cover;
-    border-radius: 1px 1px 0 0; /* Rounded top corners */
+    width: 100%;
+    height: 250px; /* Adjusted height to fill more space */
+    object-fit: cover; /* Ensures images maintain aspect ratio while covering the space */
+    border-radius: 10px 10px 0 0; /* Smoothly rounded top corners */
 }
 
 .product h3 {
@@ -199,6 +200,9 @@ nav {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
+    position: absolute; /* Allows placement relative to .product */
+    bottom: 20px; /* Distance from the bottom edge */
+    right: 20px; /* Distance from the right edge */
 }
 
 .product-btn:hover {
@@ -210,16 +214,23 @@ nav {
 @media (max-width: 768px) {
     .product-grid {
         grid-template-columns: repeat(2, 1fr); /* 2 items per row on smaller screens */
-        gap: 5%;
+        gap: 20px;
     }
 
     .product {
-        width: 45%; /* Adjust width for mobile view */
-        height: 35%;
+        width: 90%; /* Adjusted width for better fit on mobile */
     }
 }
 
+@media (max-width: 480px) {
+    .product-grid {
+        grid-template-columns: 1fr; /* 1 item per row on very small screens */
+    }
 
+    .product {
+        width: 90%;
+    }
+}
 /* New Collection Section */
 .new-collection {
     display: flex;

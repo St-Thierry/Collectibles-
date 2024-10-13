@@ -107,7 +107,7 @@ nav {
     padding: 50px;
     text-align: center;
     width: 100vw;
-    height: 39vh; /* Adjust height as needed */
+    height: 25vh; /* Adjust height as needed */
     background-image: url('assets/hero.png');
     background-size: cover;
     background-position: center;

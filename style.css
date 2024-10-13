@@ -368,7 +368,7 @@ nav {
 /* Info Section */
 .info-bar {
     background-color: #FF9800;
-    padding: 10px 0;
+    padding: 50px 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -397,7 +397,7 @@ nav {
 /* Footer */
 .footer {
             background-color: #f0f0f0;
-            padding: 40px 0;
+            padding: 50px 20px;
             color: #333;
             width: 100vw;
 }

@@ -376,12 +376,15 @@ nav {
 }
 
 .subscription h3 {
-    color: yellow;
+    color: #ffff00;
+    fontsize: 24px;
+    fontweight: bold;
 }
 
 
 .subscription p h2 {
-    color: white;
+    color: #fff;
+    fontweight: bold;
 }
 
 

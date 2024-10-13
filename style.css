@@ -107,7 +107,7 @@ nav {
     padding: 50px;
     text-align: center;
     width: 100vw;
-    height: 60vh; /* Adjust height as needed */
+    height: 39vh; /* Adjust height as needed */
     background-image: url('assets/hero.png');
     background-size: cover;
     background-position: center;
@@ -129,6 +129,23 @@ nav {
 .hero-text p {
     font-size: 1.2rem;
     margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff6600; /* Adjust this for your desired orange shade */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    border-radius: 5px; /* Adjust for rounded corners */
+    border: 2px solid #ff6600; /* Orange border */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #ff6600; /* Orange text on hover */
 }
 
 /* Products Section */

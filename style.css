@@ -27,19 +27,16 @@ nav {
     cursor: pointer;
     display: flex;
     align-items: center;
-    margin-right: 10px;
 }
 
 .logo img {
     height: 50px;
     max-width: 100px; /* Adjust width as needed */
-    margin-right: 25px;
 }
 
 .search-bar {
     flex-grow: 1;
     margin: 0 20px;
-    margin-right: 50px;
 }
 
 .search-bar input {

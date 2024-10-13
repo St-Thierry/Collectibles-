@@ -104,7 +104,6 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
     text-align: center;
     width: 100vw;
     height: 25vh; /* Adjust height as needed */

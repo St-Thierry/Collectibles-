@@ -141,6 +141,7 @@ nav {
     text-decoration: none; /* Remove underline */
     font-weight: bold;
     transition: background-color 0.3s ease, color 0.3s ease;
+    z-index: 1800;
 }
 
 .btn:hover {

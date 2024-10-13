@@ -381,14 +381,11 @@ nav {
     fontweight: bold;
 }
 
-.subscription h2 {
+.subscription h2, .subscription p {
     color: #fff;
     fontweight: bold;
-}
-
-.subscription p {
-    color: #fff;
-    fontweight: bold;
+    margin-bottom: 3px;
+    font-family: 'Times New Roman', serif;
 }
 
 /* Info Section */

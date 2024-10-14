@@ -138,7 +138,7 @@ nav {
 
 .hero-subtitle {
     font-size: 3.2rem;
-    margin:  0 auto -8px auto;
+    margin:  0 auto 10px auto;
     color: #fff; /* Ensure visibility against background */
 }
 
@@ -165,7 +165,6 @@ nav {
 .hero-text p {
     font-size: 1.2rem;
     font-weight: bold;
-    margin: 0 auto 10px auto;
 }
 
 .btn {

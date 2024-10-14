@@ -215,7 +215,7 @@ nav {
 .product-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 items per row */
-    gap: 10px 20px; /* Adjusted gap for better spacing */
+    grid-gap: 10px 20px; /* Adjusted gap for better spacing */
     justify-items: center;
 }
 
@@ -228,7 +228,6 @@ nav {
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-   grid-gap: 10px;
     position: relative; /* Added to position the button absolutely within the box */
 }
 

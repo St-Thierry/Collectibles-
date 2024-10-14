@@ -300,6 +300,9 @@ nav {
     justify-content: center;
     padding: 4% 2%;
     margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: #f5f5f5; /* Adjust background color as needed */
 }
 

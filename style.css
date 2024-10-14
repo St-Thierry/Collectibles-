@@ -188,6 +188,13 @@ nav {
     color: #ff6600; /* Orange text on hover */
 }
 
+/* Responsive Design */
+@media (min-width: 768px) {
+      .hero {
+           height: 70vh;
+       }
+}
+
 /* Products Section */
 .products {
     text-align: left; /* Align the section titles to the left */

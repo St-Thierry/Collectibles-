@@ -132,14 +132,13 @@ nav {
     background: linear-gradient(to right, #f39c12, #d35400); /* Gradient colors */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight: bold;
-    font-size: 900;
-    margin: 0 auto 2px auto; /* Adjust margin as needed */
+    font-weight: 900;
+    margin: 0 auto -3px auto; /* Adjust margin as needed */
 }
 
 .hero-subtitle {
     font-size: 1.2rem;
-    margin:  0 auto 2px auto;
+    margin:  0 auto -3px auto;
     color: #fff; /* Ensure visibility against background */
 }
 

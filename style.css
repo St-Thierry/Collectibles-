@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&display=swap');
+
 /* Global Styles */
 body {
     font-family: 'Raleway', sans-serif;
@@ -419,6 +421,7 @@ nav {
 
 /* Subscription Section */
 .subscription {
+    font-family: 'Headland One', serif;
     text-align: center;
     padding: 50px 20px;
     background-color: #f5f5f5;

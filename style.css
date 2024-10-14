@@ -220,16 +220,18 @@ nav {
 }
 
 .product {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ddd;
-    width: 90%; /* Adjust width to 100% of its container */
-    height: 400px; /* Fixed height for uniformity */
-    text-align: center;
-    border-color: red;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    position: relative; /* Added to position the button absolutely within the box */
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  width: 90%;
+  height: 400px;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+.product:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .product img {

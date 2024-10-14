@@ -215,7 +215,7 @@ nav {
 .product-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 items per row */
-    grid-gap: 10px 20px; /* Adjusted gap for better spacing */
+    gap: 10px 20px; /* Adjusted gap for better spacing */
     justify-items: center;
 }
 

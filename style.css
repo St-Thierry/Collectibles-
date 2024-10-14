@@ -389,11 +389,11 @@ nav {
 .about-title::before {
     content: "";
     position: absolute;
-    left: 0;
+    left: 3%;
     top: 50%;
     transform: translateY(-50%);
-    width: 35px; /* Length of the red line */
-    height: 2px; /* Thickness of the red line */
+    width: 40px; /* Length of the red line */
+    height: 4px; /* Thickness of the red line */
     background-color: red;
 }
 

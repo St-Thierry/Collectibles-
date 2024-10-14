@@ -16,10 +16,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 2px;
+    padding: 15px 20px; /* Adjusted padding for consistent spacing */
     background-color: #fff;
     border-bottom: 1px solid #ddd;
     position: relative;
+    width: 100%;
 }
 
 .menu-icon {
@@ -27,21 +28,25 @@ nav {
     cursor: pointer;
     display: flex;
     align-items: center;
+    width: 50px; /* Adjusted width for uniformity */
+    justify-content: center; /* Center the icon */
 }
 
 .logo img {
     height: 50px;
-    max-width: 50px; /* Adjust width as needed */
+    max-width: 150px; /* Adjusted width based on Figma design */
+    object-fit: contain; /* Ensure the logo scales properly */
 }
 
 .search-bar {
     flex-grow: 1;
-    margin: 0 10px;
+    margin: 0 20px; /* Adjusted margin for proper spacing */
+    max-width: 400px; /* Set max-width to match design */
 }
 
 .search-bar input {
-    width: 30px;
-    padding: 8px;
+    width: 100%; /* Fill the search bar container */
+    padding: 8px 15px; /* Adjusted padding for better spacing */
     border: 1px solid #ddd;
     border-radius: 15px;
     background-color: #f2f2f2;
@@ -50,12 +55,16 @@ nav {
 .nav-icons {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 20px; /* Adjusted gap for even spacing */
 }
 
 .icon {
     font-size: 1.2rem;
     color: #333;
+    width: 40px; /* Adjusted width to ensure consistent size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .dropdown-menu {

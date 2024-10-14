@@ -380,7 +380,7 @@ nav {
 
 .about-title {
     position: relative;
-    padding-left: 20px; /* Adjust for the length of the line */
+    padding-left: 8px; /* Adjust for the length of the line */
     font-weight: bold;
     font-size: 1.25rem;
     margin-bottom: 10px;
@@ -392,7 +392,7 @@ nav {
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    width: 15px; /* Length of the red line */
+    width: 35px; /* Length of the red line */
     height: 2px; /* Thickness of the red line */
     background-color: red;
 }

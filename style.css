@@ -542,9 +542,6 @@ nav {
     .product-grid {
         gap: 30px;
     }
-    body {
-        width: 1000px;
-    }
 }
 
 @media (max-width: 768px) {

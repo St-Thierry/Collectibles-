@@ -378,6 +378,25 @@ nav {
     margin-bottom: 20px;
 }
 
+.about-title {
+    position: relative;
+    padding-left: 20px; /* Adjust for the length of the line */
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.about-title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px; /* Length of the red line */
+    height: 2px; /* Thickness of the red line */
+    background-color: red;
+}
+
 /* Subscription Section */
 .subscription {
     text-align: center;

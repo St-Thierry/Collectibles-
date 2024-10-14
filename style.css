@@ -1,5 +1,14 @@
+/* Headland One */
 @import url('https://fonts.googleapis.com/css2?family=Headland+One&display=swap');
 
+/* Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* Inknut Antiqua */
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+
+/* Kaisei Tokumin */
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap');
 /* Global Styles */
 body {
     font-family: 'Raleway', sans-serif;

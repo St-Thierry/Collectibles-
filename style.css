@@ -299,6 +299,7 @@ nav {
     gap: 2%;
     justify-content: center;
     padding: 4% 2%;
+    margin: 0 auto;
     background-color: #f5f5f5; /* Adjust background color as needed */
 }
 

@@ -226,6 +226,7 @@ nav {
     width: 30px; /* Adjust width to 100% of its container */
     height: 400px; /* Fixed height for uniformity */
     text-align: center;
+    border-color: red;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: relative; /* Added to position the button absolutely within the box */

@@ -128,7 +128,7 @@ nav {
 
 /* Gradient Text Style */
 .hero-title {
-    font-size: 19.5rem;
+    font-size: 4.5rem;
     background: linear-gradient(to right, #f39c12, #d35400); /* Gradient colors */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -152,12 +152,19 @@ nav {
 }
 
 .hero-text h1 {
-    font-size: 2.5rem;
+    font-size: 4.5rem;
+    font-weight: 900;
+    margin:  0 auto -3px auto;
+}
+
+.hero-text h2 {
+    font-size: 3.2rem;
+    margin:  0 auto -3px auto;
 }
 
 .hero-text p {
     font-size: 1.2rem;
-    margin: 20px 0;
+    margin:  0 auto -3px auto;
 }
 
 .btn {

@@ -223,7 +223,7 @@ nav {
     background-color: #fff;
     padding: 20px;
     border: 1px solid #ddd;
-    width: 60%; /* Adjust width to 100% of its container */
+    width: 30px; /* Adjust width to 100% of its container */
     height: 400px; /* Fixed height for uniformity */
     text-align: center;
     border-radius: 10px;

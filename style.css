@@ -172,7 +172,7 @@ nav {
     display: inline-block;
     background-color: #ff6600; /* Adjust this for your desired orange shade */
     color: #fff; /* White text */
-    padding: 5px 20px 10px 20px;
+    padding: 0px 20px 10px 20px;
     border-radius: 5px; /* Adjust for rounded corners */
     border: 2px solid #ff6600; /* Orange border */
     text-decoration: none; /* Remove underline */

@@ -133,12 +133,13 @@ nav {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
-    margin: 0 auto -2px auto; /* Adjust margin as needed */
+    font-size: 900;
+    margin: 0 auto 2px auto; /* Adjust margin as needed */
 }
 
 .hero-subtitle {
     font-size: 1.2rem;
-    margin: 20px 0;
+    margin:  0 auto 2px auto;
     color: #fff; /* Ensure visibility against background */
 }
 

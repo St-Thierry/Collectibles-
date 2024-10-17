@@ -391,6 +391,7 @@ nav {
     text-align: center;
     padding: 50px 20px;
     width: 100vw;
+    font-family: 'Inter', sans-serif;
 }
 
 .about-grid {
@@ -484,6 +485,7 @@ nav {
     align-items: center;
     width: 100vw;
     margin-bottom: 3vh;
+    font-family: 'Inter', sans-serif;
 }
 .info-item {
     display: flex;

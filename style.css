@@ -198,6 +198,7 @@ nav {
     color: #ff6600; /* Orange text on hover */
 }
 
+
 /* Products Section */
 .products {
     text-align: left; /* Align the section titles to the left */
@@ -232,14 +233,16 @@ nav {
 }
 
 .product {
-  background-color: #f7f7f7;
-  padding: 20px;
-  border: 1px solid #ddd;
-  width: 90%;
-  height: 400px;
-  text-align: center;
-  border-radius: 10px;
-  position: relative;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    width: 90%;
+    height: 400px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden; /* Ensures that elements do not overflow the product card */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Ensures content is pushed to the bottom */
 }
 
 .product:hover {
@@ -251,6 +254,22 @@ nav {
     height: 250px; /* Adjusted height to fill more space */
     object-fit: cover; /* Ensures images maintain aspect ratio while covering the space */
     border-radius: 10px 10px 0 0; /* Smoothly rounded top corners */
+}
+
+.product h3,
+.product p {
+    margin: 0;
+    color: #fff;
+}
+
+.product h3 {
+    font-size: 1.2rem;
+    padding: 5px 10px;
+}
+
+.product p {
+    font-size: 1rem;
+    padding: 0 10px 5px 10px;
 }
 
 .product h3 {
@@ -272,14 +291,18 @@ nav {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
-    position: absolute; /* Allows placement relative to .product */
-    bottom: 20px; /* Distance from the bottom edge */
-    right: 20px; /* Distance from the right edge */
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
 }
 
-.product-btn:hover {
-    background-color: red;
-    color: #fff;
+.product .product-details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better text readability */
+    padding: 10px;
 }
 
 /* Responsive Design */
